@@ -1,11 +1,11 @@
 {
-  "name": "mcp-clipboard-image",
+  "name": "claude-paste-image",
   "version": "0.1.0",
   "description": "MCP server — paste images from system clipboard into Claude Code for analysis",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "mcp-clipboard-image": "dist/index.js"
+    "claude-paste-image": "dist/index.js"
   },
   "files": [
     "dist",
@@ -32,11 +32,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jokai-sor/mcp-clipboard-image.git"
+    "url": "git+https://github.com/jokai-sor/claude-paste-image.git"
   },
-  "homepage": "https://github.com/jokai-sor/mcp-clipboard-image#readme",
+  "homepage": "https://github.com/jokai-sor/claude-paste-image#readme",
   "bugs": {
-    "url": "https://github.com/jokai-sor/mcp-clipboard-image/issues"
+    "url": "https://github.com/jokai-sor/claude-paste-image/issues"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.27.1"

@@ -14,11 +14,11 @@ import { randomUUID } from "node:crypto";
 
 // --- Constants ---
 
-const SERVER_NAME = "mcp-clipboard-image";
+const SERVER_NAME = "claude-paste-image";
 const SERVER_VERSION = "0.1.0";
 
 /** Subdirectory inside os tmpdir for our images. */
-const TEMP_SUBDIR = "mcp-clipboard-images";
+const TEMP_SUBDIR = "claude-paste-images";
 
 /** Delete temp images older than 30 minutes. */
 const TEMP_MAX_AGE_MS = 30 * 60 * 1000;

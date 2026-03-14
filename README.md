@@ -1,4 +1,4 @@
-# mcp-clipboard-image
+# claude-paste-image
 
 MCP server that captures images from your system clipboard so Claude Code (or any MCP client) can read and analyze them.
 
@@ -27,23 +27,23 @@ Copy a screenshot or image → call the `paste_image` tool → get a file path �
 ### Option 1: npx (no install)
 
 ```bash
-claude mcp add clipboard-image -- npx -y mcp-clipboard-image
+claude mcp add paste-image -- npx -y claude-paste-image
 ```
 
 ### Option 2: Global install
 
 ```bash
-npm install -g mcp-clipboard-image
-claude mcp add clipboard-image -- mcp-clipboard-image
+npm install -g claude-paste-image
+claude mcp add paste-image -- claude-paste-image
 ```
 
 ### Option 3: From source
 
 ```bash
-git clone https://github.com/jokai-sor/mcp-clipboard-image.git
-cd mcp-clipboard-image
+git clone https://github.com/jokai-sor/claude-paste-image.git
+cd claude-paste-image
 npm install && npm run build
-claude mcp add clipboard-image -- node /absolute/path/to/dist/index.js
+claude mcp add paste-image -- node /absolute/path/to/dist/index.js
 ```
 
 ## Usage
@@ -62,7 +62,7 @@ claude mcp add clipboard-image -- node /absolute/path/to/dist/index.js
 
 ```
 Image saved from clipboard.
-Path: /tmp/mcp-clipboard-images/a1b2c3d4.png
+Path: /tmp/claude-paste-images/a1b2c3d4.png
 Format: PNG
 Size: 142 KB
 
